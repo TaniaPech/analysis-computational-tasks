@@ -38,7 +38,7 @@ def save_figure(Ccoh, Ccohm, Ccohf, pvals):
         )
 
         axes[0].set_title(
-            f"{CHANNELS[i]} → {CHANNELS[j]} (Average)"
+            f"{CHANNELS[j]} → {CHANNELS[i]} (Average)"
         )
 
         axes[0].set_xlabel("Time (s)")
@@ -62,7 +62,7 @@ def save_figure(Ccoh, Ccohm, Ccohf, pvals):
         )
 
         axes[1].set_title(
-            f"{CHANNELS[i]} → {CHANNELS[j]} (Male)"
+            f"{CHANNELS[j]} → {CHANNELS[i]} (Male)"
         )
 
         axes[1].set_xlabel("Time (s)")
@@ -76,7 +76,7 @@ def save_figure(Ccoh, Ccohm, Ccohf, pvals):
         )
 
         axes[2].set_title(
-            f"{CHANNELS[i]} → {CHANNELS[j]} (Female)"
+            f"{CHANNELS[j]} → {CHANNELS[i]} (Female)"
         )
 
         axes[2].set_xlabel("Time (s)")
