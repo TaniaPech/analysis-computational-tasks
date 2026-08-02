@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+
+# Python
+rsc/__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Data
+data/
+.datalad/
+
+# Windows
+desktop.ini
+Thumbs.db
